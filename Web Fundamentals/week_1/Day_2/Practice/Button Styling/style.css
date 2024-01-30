@@ -1,0 +1,25 @@
+.b1 {
+    border-radius: 10px;
+    width: 15%;
+    background-color: blanchedalmond;
+    border-color: grey;
+    color: grey;
+    font-size: large;
+}
+
+.b2 {
+    border-radius: 50%;
+    background-color: rgb(118, 157, 118);
+    border-color: grey;
+    color: White;
+    font-size: 16pt;
+}
+
+.b3 {
+    width: 15%;
+    background-color: blue;
+    border-color: black;
+    color: white;
+    font-size: large;
+    box-shadow: 4px 4px black;
+}
