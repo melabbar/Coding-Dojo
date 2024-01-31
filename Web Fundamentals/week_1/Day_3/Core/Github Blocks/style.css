@@ -1,0 +1,39 @@
+.con1 {
+    background-color: #EBECFF;
+    padding: 3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.p1 {
+    background-color: lightblue;
+    display: flex;
+    align-content: flex-start;
+    padding: 2%;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+
+.p2 {
+    background-color: pink;
+    display: flex;
+
+    padding: 2%;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+
+.p3 {
+    background-color: #FCFCFC;
+    display: flex;
+    align-content: flex-start;
+    padding: 2%;
+    justify-content: space-evenly;
+}
