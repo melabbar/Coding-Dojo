@@ -1,14 +1,15 @@
 .container {
     width: 950px;
     background-color: silver;
-    margin: auto;
+    margin: 0px auto;
     padding: 1%;
 }
 
 .top-nav {
     height: 150px;
     background-color: green;
-    margin-bottom: 1%;
+    vertical-align: top;
+    padding: 1%;
 
 }
 
@@ -16,7 +17,7 @@
     height: 300px;
     width: 200px;
     background-color: blue;
-
+    padding: 1%;
 }
 
 .main {
@@ -24,8 +25,6 @@
     width: 700px;
     background-color: red;
     padding: 1% 0 1% 1%;
-    margin-left: 239px;
-    margin-top: -300px;
 }
 
 .sub-content {
@@ -40,5 +39,4 @@
     height: 120px;
     width: 667px;
     background-color: purple;
-    margin: 1%;
 }
