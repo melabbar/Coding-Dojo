@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    font-family: 'Comic Neue', cursive;
+    justify-content: center;
+
+}
+
+.card2 {
+    border: 2px solid #CCCCCC;
+    padding: 40px 0 5px 15px;
+
+}
+
+h1 {
+    margin-bottom: 1%;
+}
+
+p {
+    margin: 1%;
+}
+
+.card1 {
+    height: 100px;
+    width: 700px;
+    background-color: #16A2B8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.icon1 {
+    position: relative;
+    width: 100px;
+    left: 50px;
+    bottom: 340px;
+    border: 2px solid #CCCCCC;
+    border-radius: 50%;
+    padding: 1px 2px 3px 2px;
+    background-color: white;
+}
+
+.row2 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 1%;
+}
+
+.icon2 {
+    margin: 12px 5px;
+    height: 20px;
+}
