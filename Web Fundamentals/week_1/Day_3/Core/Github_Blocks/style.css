@@ -15,7 +15,7 @@ img {
 .p1 {
     background-color: lightblue;
     display: flex;
-    align-content: flex-start;
+
     padding: 2%;
     justify-content: space-evenly;
     margin-bottom: 1%;
@@ -33,7 +33,7 @@ img {
 .p3 {
     background-color: #FCFCFC;
     display: flex;
-    align-content: flex-start;
+
     padding: 2%;
     justify-content: space-evenly;
 }

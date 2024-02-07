@@ -7,7 +7,7 @@
 /* NavBar*/
 .nav {
     display: flex;
-    justify-content: space-;
+    justify-content: space-between;
     align-items: center;
     background-color: #C1C1C1;
     width: 1000px;
@@ -42,7 +42,7 @@
 /* leftside*/
 
 .left {
-    flex: 2;
+    flex: 3;
     margin-right: 20px;
 }
 
