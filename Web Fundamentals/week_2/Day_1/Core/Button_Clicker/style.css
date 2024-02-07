@@ -1,0 +1,151 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+/* NavBar*/
+.nav {
+    display: flex;
+    justify-content: space-;
+    align-items: center;
+    background-color: #C1C1C1;
+    width: 1000px;
+}
+
+.nav h1 {
+    padding-bottom: 5px;
+    margin: 0 235px 0 10px;
+}
+
+.nav input {
+    border: 2.5px solid black;
+    width: 250px;
+}
+
+.btn {
+    color: white;
+    background-color: #2C78E4;
+    border: 2.5px solid black;
+    box-shadow: 3px 5px black;
+    font-size: 1em;
+    width: 75px
+}
+
+/* Content*/
+.main {
+    display: flex;
+    width: 1000px;
+    margin-top: 10px;
+}
+
+/* leftside*/
+
+.left {
+    flex: 2;
+    margin-right: 20px;
+}
+
+/*--------LEFT SIDE TOP BOX----------*/
+.box1 {
+    border-radius: 5px;
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box1 .left {
+    margin-bottom: 10px;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.box1 div {
+    margin-bottom: 10px;
+    align-items: center;
+    flex: 2;
+    text-align: start;
+}
+
+.box1 span {
+    font-style: italic;
+}
+
+.btn1 {
+    background-color: #FFD966;
+    border: 2.5px solid black;
+    box-shadow: 2px 3px black;
+    width: 55px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+/*--------LEFT SIDE BOTTOM BOX----------*/
+.box2 {
+    border-radius: 5px;
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box2 .left1 {
+    margin-bottom: 10px;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.box2 div {
+    margin-bottom: 10px;
+    align-items: center;
+    flex: 2;
+    text-align: start;
+}
+
+.box2 span {
+    font-style: italic;
+}
+
+/*-------------RIGHT SIDE--------------------*/
+
+
+.right {
+    flex: 1;
+}
+
+.box3 {
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box3 h1 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+
+.box3 span {
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: #94C47E;
+    border: 2.5px solid black;
+    box-shadow: 3px 3px black;
+    font-size: 1em;
+    width: 120px;
+    margin-bottom: 10px;
+}
