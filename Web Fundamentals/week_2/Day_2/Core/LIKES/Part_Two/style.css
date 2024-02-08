@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----TopNavbar-----*/
+
+.navbar1 {
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar1 h1 {
+    margin: 10px;
+}
+
+/*-----SubNavbar-----*/
+.navbar2 {
+    height: 50px;
+    text-align: center;
+}
+
+/*-----MAIN DIVISON-----*/
+
+.main,
+.navbar1,
+.navbar2 {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.navbar2 {
+    justify-content: center;
+}
+
+
+/*-----Avatar Section-----*/
+
+.avatar {
+    border: 2px solid black;
+    flex: 1;
+    margin-right: 10px;
+    padding-top: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 16pt;
+}
+
+.avatar img {
+    width: 100px;
+}
+
+
+.right {
+    flex: 3;
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 100px;
+}
+
+.box {
+    margin-bottom: 40px;
+    border: 2px solid black;
+    padding: 10px 10px;
+
+}
+
+.box h2 {
+    flex: 3;
+}
+
+
+.box div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.likes {
+    display: flex;
+    gap: 10px;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #FFD965;
+    box-shadow: 2px 2px black;
+    width: 120px;
+    font-size: 1.5rem;
+}

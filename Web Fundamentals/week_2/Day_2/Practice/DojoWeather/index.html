@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Forecast</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!----FONT EXTERNAL LINK------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <!------NAVBAR--------->
+        <div class="nav">
+            <h1>Dojo Weather</h1>
+            <ul>
+                <li><a onclick="" href="#">Burbank</a></li>
+                <li><a href="#">Chicago</a></li>
+                <li><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+        <!------End of NAVBAR--------->
+    </div>
+    <div class="container">
+        <div class="subNav">
+            <h2>San Jose</h2>
+            <form>
+                <label>Show in temperature in</label>
+                <select>
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </div>
+        <div class="row">
+            <div class="forecast">
+                <h1>Today</h1>
+                <img src="assets/some_rain.png" alt="rain">
+                <p>some rain</p>
+                <p class=" temperatures">
+                    <span class="high">24°</span>
+                    <span class="low">18°</span>
+                </p>
+
+            </div>
+            <div class="forecast">
+                <h1>Tomorrow</h1>
+                <img src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <p class="temperatures">
+                    <span class="high">27°</span>
+                    <span class="low">19°</span>
+                </p>
+            </div>
+            <div class="forecast">
+                <h1>Friday</h1>
+                <img src="assets/some_clouds.png" alt="cloud">
+                <p>some cloud</p>
+                <p class="temperatures">
+                    <span class="high">21°</span>
+                    <span class="low">16°</span>
+                </p>
+
+            </div>
+            <div class="forecast">
+                <h1>Saturday</h1>
+                <img src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <p class="temperatures">
+                    <span class="high">26°</span>
+                    <span class="low">21°</span>
+                </p>
+
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="cookie-policy">
+                <img src="assets/cookie.png" alt="cookie">
+                <div class="text">
+                    <h2>Stop! Cookie Time.</h2>
+                    <p>
+                        We use cookie (sadly not the edible ones) to personalize <br>
+                        content and ads, to provide social media features and to <br>
+                        analyse our traffic. <a href="">Read more...</a>
+                    </p>
+                </div>
+                <button class="btn">Accept</button>
+            </div>
+        </div>
+    </div>
+    <!---------Link for JS------------->
+    <script src="script.js"></script>
+</body>
+
+</html>

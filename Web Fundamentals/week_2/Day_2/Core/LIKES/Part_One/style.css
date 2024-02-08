@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.one {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.two {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+
+}
+
+.two h2 {
+    flex: 3;
+}
+
+.two p {
+    flex: 1;
+}
+
+.btn {
+    background-color: #FFD965;
+    box-shadow: 2px 2px black;
+    width: 120px;
+}
