@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E2E2E2;
+}
+
+/*------------------ LIVE NAVBAR------------------*/
+.liveNav {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: end;
+}
+
+/*------------------ SUB NAVBAR (Dsnn Title)------------------*/
+.dsnnNav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.leftDsnn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-left: 20px;
+}
+
+.leftDsnn h1 {
+    background-color: red;
+    transform: skew(-10deg);
+    padding: 10px 5px;
+    margin-left: 5px;
+}
+
+.leftDsnn ul {
+    font-size: 16pt;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.rightDsnn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.rightDsnn img {
+    width: 40px;
+    height: 40px;
+}
+
+/*------------------ MAIN CONTAINER------------------*/
+.main {
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    width: 1100px;
+}
+
+/*------------------ LEFT CONTAINER------------------*/
+.left {
+    flex: 1;
+}
+
+/*-------- First Box on the LEFT -----------*/
+
+
+.box1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin: 0 15px 10px 10px;
+    background-color: white;
+}
+
+.box1 h2 {
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.box1 p {
+    margin-bottom: 10px;
+}
+
+/*-------- Second Box on the LEFT -----------*/
+
+.box2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 15px 10px 10px;
+}
+
+.box2 h3 {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn1 {
+    background-color: #2C78E4;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.btn2 {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/*-------- Third Box on the LEFT -----------*/
+
+
+.box3 {
+
+
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 15px 10px 10px;
+}
+
+.box3 p {
+    padding: 5px;
+
+}
+
+.btn3 {
+    background-color: #FFE599;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/*------------------ RIGHT CONTAINER------------------*/
+.right {
+    flex: 3;
+}
+
+.box4 {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 15px 5px 10px;
+}
+
+/*-------- Title of the box on the Right -----------*/
+.top {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.top h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.top p {
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/*-------- Center Content of the box on the Right -----------*/
+
+.row {
+    display: flex;
+}
+
+.leftTeam {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftTeam img {
+    width: 140px;
+}
+
+.leftTeam h2 {
+    color: #119B9D;
+    font-size: 2.5rem;
+}
+
+.leftTeam h4 {
+    color: #929292;
+}
+
+.leftTeam h1 {
+    font-size: 3.5rem;
+}
+
+
+.centerInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rightTeam {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightTeam img {
+    width: 140px;
+}
+
+.rightTeam h2 {
+    color: #D20F34;
+    font-size: 2.5rem;
+}
+
+.rightTeam h4 {
+    color: #929292;
+}
+
+.rightTeam h1 {
+    font-size: 3.5rem;
+}
+
+/*-------- Footer of the box on the Right -----------*/
+.footer {
+    border-top: 2px solid black;
+    padding: 10px;
+}

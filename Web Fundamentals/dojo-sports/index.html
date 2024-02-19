@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!------BOTH NAVBARS------->
+
+    <div class="nav">
+
+        <!------Live Score NavBar------->
+
+        <div class="liveNav">
+
+            <h1>
+                Live Scores
+            </h1>
+                <div class="one">
+                    <p>SJC Ninjas - 314 </p>
+                    <p> NS Pirates - 159</p>
+                </div>
+                <div class="one">
+                    <p>CHI Samurai - 0</p> 
+                    <p> TUL Wizards - 0</p>
+                </div>
+                <div class="one">
+                    <p>BOS Hackers - 13</p>
+                    <p> TYO Youkai - 37</p>
+                </div>
+                <div class="one">
+                    <p>BOI Knights - 5 </p>
+                    <p>SEA Sea Lions - 11</p>
+                </div>
+        </div>
+
+        <!------DSNN NavBar------->
+
+        <div class="dsnnNav">
+            <div class="leftDsnn">
+                <h1>
+                    DSNN
+                </h1>
+                <ul>
+                    <li>Football</li>
+                    <li>Basketball</li>
+                    <li>Baseball</li>
+                    <li>Soccer</li>
+                    <li>More...</li>
+                </ul>
+            </div>
+            <div class="rightDsnn">
+                <img src="assets/search-light.png" alt="Search">
+                <img src="assets/hamburger-light.png" alt="Hamburger List">
+                <img src="assets/user-circle-light.png" alt="User Profile">
+            </div>
+        </div>
+    </div>
+
+    <!------Main Container------->
+
+    <div class="main">
+
+        <!------Left Column------->
+
+        <div class="left">
+            <div class="box1">
+                <h2>Top Stories</h2>
+                <p>Ninjas up being in fifth</p>
+                <p>best sports cities</p>
+                <p>Choi joins Hall of Fame</p>
+                <p>Tournament underway</p>
+                <p>Samurai at Wizards</p>
+            </div>
+
+            <div class="box2">
+                <h3>Customize your DSNN</h3>
+                <div class="buttons">
+                    <button class="btn1">Sign In</button>
+                    <button class="btn2">Sign Up</button>
+                </div>
+            </div>
+
+            <div class="box3">
+                <p>Never miss a play</p>
+                <div class="buttons">
+                    <button onclick="deleteBox(this)" class="btn3">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <!------Right Column------->
+
+        <div class="right">
+            <div class="box4">
+                <div class="top">
+                    <p>• Live</p>
+                    <h1>Ninja Leading Pirates</h1>
+                </div>
+                <div class="row">
+                    <div class="leftTeam">
+                        <img src="assets/sjc-ninjas.png" alt="Ninja logo">
+                        <p>San Jose</p>
+                        <h2>Ninjas</h2>
+                        <h4>(10 W - 3 L)</h4>
+                        <h1 onclick="add(this)" id="scoreLeft">319</h1>
+                    </div>
+                    <div class="centerInfo">
+                        <h1>VS</h1>
+                        <p>0:13 remaining<br>5th period</p>
+                    </div>
+                    <div class="rightTeam">
+                        <img src="assets/ns-pirates.png" alt="Pirates logo">
+                        <p>San Jose</p>
+                        <h2>Pirates</h2>
+                        <h4>(12 W - 2 L)</h4>
+                        <h1 onclick="add1(this)" id="scoreRight">159</h1>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>A conservative match between the two top-performing
+                        sides in the Central League Division with a number 1
+                        seed at stake... <a href="">get live updates</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
