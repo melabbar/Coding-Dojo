@@ -37,7 +37,6 @@
 #    for key in students:
 #        print(key)
 #iterateDictionary(students)
-
 # 3 Get Values From a List of Dictionaries
 #students = [
 #      {'first_name':  'Michael', 'last_name' : 'Jordan'},
@@ -65,9 +64,13 @@ dojo = {
 def printInfo(dojo):
     
     print(len(dojo['locations']), "locations")
+
     for i in range (0, len(dojo['locations'])):
         print(dojo['locations'][i])
+
+
     print('\n', len(dojo['instructors']), "Instructors")
+    
     for i in range (0, len(dojo['instructors'])):
         print(dojo['instructors'][i])
 
