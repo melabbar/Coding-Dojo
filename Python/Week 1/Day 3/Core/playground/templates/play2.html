@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+
+</head>
+
+<body>
+
+    <style>
+        body {
+            width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .play {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .play div {
+            border: 2px black solid;
+            display: block;
+            height: 200px;
+            width: 200px;
+
+        }
+    </style>
+    <h1>WELCOME!</h1>
+
+    <div class="play">
+        {%for i in range (0,num)%}
+        <div style="background-color: {{colors}};"></div>
+        {%endfor%}
+    </div>
+
+
+</body>
+
+</html>
