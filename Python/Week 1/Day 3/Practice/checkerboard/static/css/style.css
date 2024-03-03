@@ -1,0 +1,33 @@
+* {
+
+    margin: 0 auto;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px;
+    margin: 15px 0;
+}
+
+table tr td {
+    height: 50PX;
+    width: 50px;
+    outline: 2px solid black;
+}
+
+.color1 {
+    background-color: black;
+}
+
+.color2 {
+    background-color: red;
+}
