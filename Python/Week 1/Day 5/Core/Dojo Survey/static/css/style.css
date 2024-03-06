@@ -1,0 +1,36 @@
+form {
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 500px;
+    background-color: #33393F;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: #FEC00A;
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    color: white;
+}
+
+.title {
+    color: darkorange;
+}
+
+.result {
+    color: white;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}

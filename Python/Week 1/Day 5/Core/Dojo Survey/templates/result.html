@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <form action="" method="post">
+        <h1>DISPLAYED INFO</h1>
+        <h1 class="title">{{session['name']}}</h1>
+        <h2 class="result">Location: {{session['location']}}</h2>
+        <h2 class="result">Favorite Language: {{session['lang']}}</h2>
+        <h2 class="result">{{session['name']}}'s comment:{{session['comment']}}</h2>
+    </form>
+</body>
+
+</html>
