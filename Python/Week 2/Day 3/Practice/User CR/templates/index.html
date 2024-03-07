@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read ALL</title>
+</head>
+
+<body>
+    <h1>ALL USERS</h1>
+    <form action="/create" method="post">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for one_user in user %}
+                <tr>
+                    <td>{{one_user.id}}</td>
+                    <td>{{one_user.first_name}}</td>
+                    <td>{{one_user.last_name}}</td>
+                    <td>{{one_user.email}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <button>Add new user</button>
+    </form>
+
+</body>
+
+</html>
