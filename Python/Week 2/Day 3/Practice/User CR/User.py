@@ -1,5 +1,5 @@
 
-from mysqlconnection import connectToMySQL
+from config.mysqlconnection import connectToMySQL
 
 class Users:
     def __init__( self , data ):
