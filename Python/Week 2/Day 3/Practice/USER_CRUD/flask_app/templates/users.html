@@ -10,28 +10,23 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="d-flex justify-content-between">
             <h1 class="">User Number: #{{show.id}}</h1>
             <a href="/">Home</a>
         </div>
-
         <div class=" border">
-
             <h2 class="">First Name: {{show.first_name}}</h2>
             <h2 class="">Last Name: {{show.last_name}}</h2>
             <h2 class="">Email: {{show.email}}</h2>
             <h2 class="">Updated At: {{show.updated_at}}</h2>
         </div>
-
         <div class=" d-flex gap-2">
             <a href="/user/edit/{{show.id}}"> Edit</a>
             <p> | </p>
             <a href="/user/delete/{{show.id}}"> Delete </a>
         </div>
     </div>
-
 </body>
 
 </html>

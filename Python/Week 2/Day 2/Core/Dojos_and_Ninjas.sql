@@ -1,7 +1,7 @@
 SELECT * FROM dojos_and_ninjas_schema.dojos;
 insert into dojos_and_ninjas_schema.dojos (name) values('Dojo 1','Dojo 2','Dojo 3');
 DELETE FROM dojos_and_ninjas_schema.dojos;
-SET SQL_SAFE_UPDATES = 0;
+
 insert into dojos_and_ninjas_schema.dojos (name) values('Dojo 4','Dojo 5','Dojo 6');
 
 SELECT name FROM dojos_and_ninjas_schema.dojos WHERE id = 9;
@@ -14,7 +14,7 @@ SELECT * FROM dojos_and_ninjas_schema.ninjas WHERE dojo_id = 9;
 
 SELECT * FROM ninjas
 JOIN dojos ON dojos.id = ninjas.dojo_id
-WHERE ninjas.id= 26 ;
+WHERE ninjas.id= 1 ;
 
 
 SELECT * FROM ninjas
