@@ -43,22 +43,18 @@ class Dojo:
                     WHERE dojos_and_ninjas_schema.dojos.id = %(id)s
                 """
         results = connectToMySQL(DATABASE).query_db(query, data)
-        dojos = cls(results[0])
+        print(results)
+        dojo = cls(results[0])
 
         for row_from_db in results:
             ninja_data = {
-                "id" : row_from_db['ninjas.id'],
+                'id' : row_from_db['ninjas.id'],
                 "first_name" : row_from_db['first_name'],
                 "last_name" : row_from_db['last_name'],
                 "age" : row_from_db['age'],
                 "created_at" : row_from_db['ninjas.created_at'],
                 "updated_at" : row_from_db['ninjas.updated_at'],
             }
-            dojos.ninja.append( Ninja(ninja_data))
-        return dojos
+            dojo.ninja.append( Ninja(ninja_data))
+        return dojo
     
-    @classmethod
-    def delete(cls, id):
-        query  = "DELETE FROM dojos_and_ninjas_schema.dojos WHERE id = %(id)s;"
-        data = {"id": id}
-        return connectToMySQL(DATABASE).query_db(query, data)

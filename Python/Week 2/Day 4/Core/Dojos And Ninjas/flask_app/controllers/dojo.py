@@ -22,4 +22,4 @@ def show_ninjas_in_dojo(id):
     data = {
         "id": id
     }
-    return render_template('show_ninja.html', dojo = Dojo.get_one(data))
+    return render_template('show_ninja.html', dojo = Dojo.dojo_ninja(data))
