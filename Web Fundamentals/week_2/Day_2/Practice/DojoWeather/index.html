@@ -20,9 +20,9 @@
         <div class="nav">
             <h1>Dojo Weather</h1>
             <ul>
-                <li><a onclick="" href="#">Burbank</a></li>
-                <li><a href="#">Chicago</a></li>
-                <li><a href="#">Dallas</a></li>
+                <li><a onclick="loading(this)" href="#">Burbank</a></li>
+                <li><a onclick="loading(this)" href="#">Chicago</a></li>
+                <li><a onclick="loading(this)" href="#">Dallas</a></li>
             </ul>
         </div>
         <!------End of NAVBAR--------->
@@ -33,8 +33,8 @@
             <form>
                 <label>Show in temperature in</label>
                 <select>
-                    <option>°C</option>
-                    <option>°F</option>
+                    <option onclick="changeTemp(this)">°C</option>
+                    <option onclick="changeTemp(this)">°F</option>
                 </select>
             </form>
         </div>
@@ -91,7 +91,7 @@
                         analyse our traffic. <a href="">Read more...</a>
                     </p>
                 </div>
-                <button class="btn">Accept</button>
+                <button onclick="closeCookie()" class="btn">Accept</button>
             </div>
         </div>
     </div>

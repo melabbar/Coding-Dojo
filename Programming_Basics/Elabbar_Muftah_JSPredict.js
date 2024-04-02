@@ -1,3 +1,4 @@
+
 //---------PREDICT 1---------------
 function myBirthYearFunc() {
     console.log("I was born in" + 1980);
