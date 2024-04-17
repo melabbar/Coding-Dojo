@@ -1,0 +1,23 @@
+.row {
+    color: lightgrey;
+    background-color: gray;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+}
