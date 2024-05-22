@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+	padding: 20px;
+}
+
+.title{
+	color: #fd6c9e;
+	margin-bottom: 25px;
+}
+.tableBord{
+	width: 400px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #fd6c9e;
+}
