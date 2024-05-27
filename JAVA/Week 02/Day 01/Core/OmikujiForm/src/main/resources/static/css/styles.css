@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.pg{
+	width:1000px;
+	margin: 0 auto;
+}
+.fm{
+	width: 450px;
+	border: 2px solid;
+	border-radius:5px;
+	padding: 10px
+}
+
+.show{
+	width: 450px;
+	border: 2px solid;
+	border-radius:5px;
+	padding: 10px;
+	color: white;
+	background-color:blue;	
+}
